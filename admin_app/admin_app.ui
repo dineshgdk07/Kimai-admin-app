@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminApp</class>
+ <widget class="QMainWindow" name="AdminApp">
+  <property name="windowTitle">
+   <string>Admin App</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="login_label">
+      <property name="text">
+       <string>Please log in to continue:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="login_button">
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="logout_button">
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="user_label">
+      <property name="text">
+       <string>Select user:</string>
+      </property>
+     </widget>
+    </item>
+    <!-- <item>
+     <widget class="QComboBox" name="user_combo"/>
+    </item> -->
+    <item>
+     <widget class="QPushButton" name="select_user_button">
+      <property name="text">
+       <string>Select</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="generate_service_button">
+      <property name="text">
+       <string>Generate Service</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
